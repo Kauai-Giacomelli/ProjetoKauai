@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:orientation="vertical">
+
+
+       <TextView
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:background="#fdcac6c6"
+           android:text="Equipe de Suporte TI"
+           android:textAlignment="center"
+           android:textColor="#000"
+           android:textSize="40dp"/>
+
+       <TextView
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_gravity="center_vertical"
+           android:background="#fdfaf5f5"
+           android:text="Cliente:"/>
+
+       <EditText
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:id="@+id/Cliente"
+           android:hint="Digite aqui seu nome" />
+
+       <TextView
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_gravity="center_vertical"
+           android:background="#fdfcf7f7"
+           android:text="Descrição do defeito:"/>
+
+       <EditText
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:id="@+id/Defeito"
+           android:hint="Digite aqui o defeito"/>
+
+       <LinearLayout
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content">
+
+
+           <TextView
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+
+               style="@style/estiloLabel"/>
+
+           <CheckBox
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text="Orçamento"
+               style="@style/estiloCampos" />
+
+           <CheckBox
+               style="@style/estiloCampos"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text="Serviço" />
+
+       </LinearLayout>
+
+
+       <LinearLayout
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content">
+
+           <TextView
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:background="#fdfcfafa"
+               android:text="Categoria" />
+
+           <EditText
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:inputType="textCapWords">
+
+           </EditText>
+
+
+       </LinearLayout>
+
+
+
+       <TextView
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:background="#fdfffefe"
+           android:text="Valor:">
+
+           <EditText
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:inputType="numberDecimal"
+               android:hint="000"/>
+
+       </TextView>
+
+
+       <EditText
+           android:layout_width="76dp"
+           android:layout_height="match_parent"
+           android:inputType="numberDecimal"/>
+
+
+
+
+
+       <RadioButton
+
+           android:text="Serviço finalizado"
+           android:background="#fdacacac"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_gravity="center"
+           style="@style/estiloCampos"/>
+   </LinearLayout>
+
+
+
+
+</ScrollView>
+
+
+
+
+

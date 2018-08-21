@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">SuporteKauai</string>
+
+
+    <string-array name="arrayManutencao">
+        <item>Selecione...</item>
+        <item>Computador</item>  <item>Monitor</item>  <item>Mouse</item>
+        <item>Tablet</item>  <item>Notebook</item>  <item>Teclado</item>
+        <item>Celular</item>
+    </string-array>
+
+</resources>
